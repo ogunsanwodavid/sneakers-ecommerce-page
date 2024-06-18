@@ -27,7 +27,11 @@ function Cart({
     <div
       className={`${
         showCart ? "flex" : "hidden"
-      } flex-col w-[calc(100%_-_1rem)] max-w-[315px] bg-white absolute top-full h-[200px] z-20 -ml-3 mt-2 rounded-lg  overflow-hidden md:right-0 md:-ml-3 md:-mt-3`}
+      } flex-col w-[calc(100%_-_1rem)] max-w-[315px] ml-2 bg-white absolute right-2 top-full h-[200px] z-20 mt-2 rounded-lg  overflow-hidden custom-shadow md:right-0 md:-mt-3`}
+      style={{
+        boxShadow:
+          "5px 5px 15px rgba(0, 0, 0, 0.2), -5px 5px 15px rgba(0, 0, 0, 0.2), 0px 10px 15px rgba(0, 0, 0, 0.2)",
+      }}
     >
       <div className="w-full px-5 py-3 border-b-[1px] border-b-grayish-blue">
         <p className="text-base text-black font-bold">Cart</p>

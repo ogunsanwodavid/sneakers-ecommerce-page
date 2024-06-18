@@ -32,7 +32,6 @@ function ProductInfo({
       quantity: quantity,
       image: currentImage,
     });
-    setQuantity(1);
     setDisplayMessage(true);
     setMessage(
       quantity === 1
@@ -91,7 +90,13 @@ function ProductInfo({
         </div>
 
         {/*** Add to cart button */}
-        <Button onClick={handleAddToCart}>
+        <Button
+          onClick={handleAddToCart}
+          style={{
+            boxShadow:
+              "5px 5px 15px hsla(26, 100%, 55%, 0.2), -5px 5px 15px hsla(26, 100%, 55%, 0.2), 0px 10px 15px hsla(26, 100%, 55%, 0.2)",
+          }}
+        >
           <div className="flex items-center justify-center space-x-3">
             <img src={iconCartDark} className="h-3" />
 
