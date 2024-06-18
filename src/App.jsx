@@ -162,7 +162,7 @@ function App() {
         />
       )}
 
-      {displayLightbox && (
+      {displayLightbox && isDesktopWidth && (
         <Lightbox
           currentId={currentId}
           setCurrentId={setCurrentId}

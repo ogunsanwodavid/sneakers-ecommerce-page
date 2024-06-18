@@ -132,7 +132,7 @@ function Navbar({
               onClick={handleCloseMenu}
             />
 
-            <ul className="flex flex-col space-y-4 font-bold text-xl">
+            <ul className="flex flex-col space-y-8 font-bold text-xl">
               <li>Collections</li>
 
               <li>Men</li>
