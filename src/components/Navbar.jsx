@@ -25,7 +25,7 @@ function Navbar({
   }
 
   function handleCloseMenu() {
-    setIsMenuOpen(close);
+    setIsMenuOpen(false);
   }
 
   function handleShowCart() {
