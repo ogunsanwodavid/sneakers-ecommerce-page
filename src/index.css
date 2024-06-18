@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 /*** Import local stored fonts **/
-@font-face {
+/* @font-face {
   font-family: Kumbh Sans;
   font-style: normal;
   font-weight: 400 500 600 700;
   src: url("./src/assets/Kumbh_Sans/KumbhSans-VariableFont_YOPQ\,wght.ttf");
-}
+} */
