@@ -41,7 +41,7 @@ function ProductInfo({
   }
 
   return (
-    <div className="w-full p-4 pb-16 space-y-4 md:pb-0 md:p-0 md:space-y-5">
+    <div className="w-full py-6 px-10 pb-16 space-y-4 md:pb-0 md:p-0 md:space-y-5">
       <h1 className="uppercase text-dark-grayish-blue text-[13px] font-bold lg:text-[14px]">
         SNEAKER COMPANY
       </h1>

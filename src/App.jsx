@@ -1,3 +1,5 @@
+import { useEffect, useMemo, useState } from "react";
+
 import "./App.css";
 
 import productImage1 from "./assets/image-product-1.jpg";
@@ -12,7 +14,6 @@ import thumbnailImage4 from "./assets/image-product-4-thumbnail.jpg";
 
 import Navbar from "./components/Navbar";
 import ProductGallery from "./components/ProductGallery";
-import { useEffect, useMemo, useState } from "react";
 import ProductInfo from "./components/ProductInfo";
 import AppMessage from "./components/AppMessage";
 import Lightbox from "./components/Lightbox";
